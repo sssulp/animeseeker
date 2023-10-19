@@ -18,9 +18,6 @@ function App() {
   const [ userInput, setUserInput ] = useState("");
   const [ searchTerm, setSearchTerm ] = useState("");
 
-  // api url
-  const apiUrl = `https://api.jikan.moe/v4/anime`;
-
   // font awesome button icon
   const questionMark = <FontAwesomeIcon icon={ faQuestionCircle }/>
   const [ openModal, setOpenModal ] = useState(false);
@@ -41,7 +38,7 @@ function App() {
   // call api in descending order 
   useEffect(() => {
     axios({
-      url: apiUrl,
+      url: 'https://api.jikan.moe/v4/anime',
       method: "GET",
       dataResponse: "json",
       params: {
