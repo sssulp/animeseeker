@@ -1,6 +1,6 @@
 # animeseeker
 
-simple anime search website
+Simple anime search web application
 - built in react.
 - uses react hooks and axios calls for Jikan Moe API (updated to version 4).
 
