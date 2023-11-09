@@ -1,5 +1,7 @@
 # animeseeker
 
+![animeseeker-mocks](https://github.com/sssulp/animeseeker/assets/91898509/c09ebbb6-29a4-4284-9aba-aa49ff6803cd)
+
 Simple anime search web application
 - built in react.
 - uses react hooks and axios calls for Jikan Moe API (updated to version 4).
