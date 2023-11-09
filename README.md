@@ -1,3 +1,9 @@
+# animeseeker
+
+simple anime search website
+- built in react.
+- uses react hooks and axios calls for Jikan Moe API (updated to version 4).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
